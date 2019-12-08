@@ -83,3 +83,16 @@ button {
 .todo-container li button:hover{
   background-color: rgba(0, 0, 0, .8);
 }
+@media(max-width: 680px) {
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .input-container button, .input {
+    margin: 5px;
+  }
+  .todo-container ul {
+    width: 100%;
+  }
+}
